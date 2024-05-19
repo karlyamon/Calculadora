@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-image: url('../img/horizonte.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* posicionamento da calculadora na página */
+div.conteiner{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    margin: 160px;
+}
+
+
+div#display{
+    /* border: 1px solid red; */
+    max-width: 310px;
+    height: 140px;
+    background-color: black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: white;
+    font-size: 4em;
+    padding: 10px;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    overflow: hidden;
+}
+
+div.btns{
+    /* border: 1px solid blue; */
+    width: 310px;
+    height: 380px;
+    background-color: black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    button.btn{
+    margin-left: 5px;
+    margin-top: 6px;
+    background-color: #333333;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18pt;
+    height: 68px;
+    width: 68px;
+    border: none;
+    cursor: pointer;
+    }button.btn:hover{
+        background-color: #5f5f5f;
+        transition: 1s;
+    }
+}
+
+button.btn-gray{
+    margin-left: 5px;
+    margin-top: 6px;
+    background-color: #a5a5a5;
+    border-radius: 50%;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18pt;
+    height: 68px;
+    width: 68px;
+    border: none;
+    cursor: pointer;
+    }button.btn-gray:hover{
+    background-color: #cfcfcf;
+    transition: 1s;
+    }
+
+button.btn-yellow{
+    margin-left: 5px;
+    margin-top: 6px;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18pt;
+    height: 68px;
+    width: 68px;
+    border: none;
+    cursor: pointer;
+    background-color: #ff9f0a;
+    }button.btn-yellow:hover{
+    background-color: #ffbc58;
+    transition: 1s;
+    }
+
+button.btn-0{
+    padding-right: 140px; 
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    margin-left: 5px;
+    margin-top: 6px;
+    background-color: #333333;
+    height: 68px;
+    width: 68px;
+    border: none;
+    cursor: pointer;
+    }button.btn-0:hover{
+     background-color: #5f5f5f;
+     transition: 1s;
+    }
+
+    
